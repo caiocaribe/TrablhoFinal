@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sistemalocacao.revisao;
 
 import sistemalocacao.locacao.Veiculos;
 
-public class Carro extends Veiculos implements Carrointerface {
+public class Carro extends Veiculos implements CarroInterface {
     
    private double quilometragem;
    private Dono dono;
